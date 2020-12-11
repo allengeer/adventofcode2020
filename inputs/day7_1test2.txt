@@ -1,0 +1,7 @@
+shiny gold contain 2 dark red
+dark red contain 2 dark orange
+dark orange contain 2 dark yellow
+dark yellow contain 2 dark green
+dark green contain 2 dark blue
+dark blue contain 2 dark violet
+dark violet contain no other

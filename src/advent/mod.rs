@@ -1,14 +1,15 @@
 mod day1;
 mod day2;
 mod day3;
-/*mod day4;
+mod day4;
 mod day5;
 mod day6;
 mod day7;
 mod day8;
 mod day9;
 mod day10;
-*/
+mod day11;
+
 use std::{
     fs::File,
     io::{prelude::*, BufReader},
@@ -25,13 +26,14 @@ pub fn challenges() -> Vec<Box<dyn AdventChallenge>> {
     vec![Box::new(day1::AdventDay1{ }),
          Box::new(day2::AdventDay2{ }),
          Box::new(day3::AdventDay3{ }),
-         //Box::new(day4::AdventDay4{ }),
-         //Box::new(day5::AdventDay5{ }), 
-         //Box::new(day6::AdventDay6{ }),
-         //Box::new(day7::AdventDay7{ }),
-         //Box::new(day8::AdventDay8{ }),
-         //Box::new(day9::AdventDay9{ }),
-         //Box::new(day10::AdventDay10{ }), 
+         Box::new(day4::AdventDay4{ }),
+         Box::new(day5::AdventDay5{ }), 
+         Box::new(day6::AdventDay6{ }),
+         Box::new(day7::AdventDay7{ }),
+         Box::new(day8::AdventDay8{ }),
+         Box::new(day9::AdventDay9{ }),
+         Box::new(day10::AdventDay10{ }),
+         Box::new(day11::AdventDay11{ }),
     ]
 }
 

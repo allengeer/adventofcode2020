@@ -22,7 +22,6 @@ impl super::AdventChallenge for AdventDay1 {
             .collect();
         numbers.sort();
         find_pair_multiply(&numbers[..], 2020).to_string()
-        
     }
     fn compute_part_two(&self) -> String {
         let mut numbers:Vec<i32> = lines_from_file("inputs/day1_1.txt")
